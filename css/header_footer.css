@@ -1,0 +1,25 @@
+@charset 'utf-8';
+
+/******************************* header */
+header{background:rgba(255,255,255,1); width: 100%; height: 70px; position: fixed; z-index: 9999;}
+header .hd{font-size:16px; font-weight: bold; margin-right:30px;}
+header>ul{ width:100%; background:white;}
+header>ul>li{font-size: 11px;	float: left;	line-height:70px;	margin-right: 15px; }
+header>ul>li:first-child{margin-left: 48px;}
+header>ul>li a{display: block;}
+
+/***************************************** section4 */
+
+h3{	font-size: 30px;font-weight: bold;padding-top: 40px;}
+.h3{font-size: 20px;margin-bottom: 30px;}
+.arti4{	width: 100%;height: 500px;}
+.arti4>h2{text-align: center;color: white;}
+.arti4>.namebox{width: 838px;height: 352px;	background: #d9d9d9;margin: 0px auto; margin-top: 176px;	text-align: center; box-shadow: 4px 4px 6px;}
+.arti4>.namebox div{width: 339px; height: 54px;	border: 1px solid #161616;	margin: 20px auto;}
+.arti4>.namebox>div p{line-height: 54px;  font-size: 20px;}
+.arti4>.namebox img{width: 20px; height: 20px; float: left; margin:15px 0 0 40px;}
+
+/***************************************** footer */
+footer{width: 100%;text-align: center;color: white; padding:30px 0 80px 0;}
+footer img{	margin-bottom: 37px;}
+footer img:hover{opacity: .5;}
