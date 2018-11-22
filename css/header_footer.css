@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
 /******************************* header */
-header{background:rgba(255,255,255,1); width: 100%; height: 70px; position: fixed; z-index: 9999;}
+header{background:rgba(255,255,255,1); width: 100%; height: 70px; position: fixed; z-index: 9999; font-family: 'Roboto', sans-serif;}
 header .hd{font-size:16px; font-weight: bold; margin-right:30px;}
 header>ul{ width:100%; background:white;}
 header>ul>li{font-size: 11px;	float: left;	line-height:70px;	margin-right: 15px; }
@@ -20,6 +20,6 @@ h3{	font-size: 30px;font-weight: bold;padding-top: 40px;}
 .arti4>.namebox img{width: 20px; height: 20px; float: left; margin:15px 0 0 40px;}
 
 /***************************************** footer */
-footer{width: 100%;text-align: center;color: white; padding:30px 0 80px 0;}
+footer{width: 100%;text-align: center;color: white; padding:30px 0 80px 0;background-color: #161616;}
 footer img{	margin-bottom: 37px;}
 footer img:hover{opacity: .5;}
