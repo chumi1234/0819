@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+html,body{width: 100%;}
+body{font-family: 'Roboto', sans-serif; background-color: #f5f4f4;
+/* background:url(image01/mainimg.png) no-repeat; background-position:0  140px ; */}
+a{color: black;}
+header{letter-spacing:4px; width: 100%; height: 130px; position: absolute; z-index: 9999; background-color: white;}
+header a{display: block; }
+header a:hover{display: block; color: gray; }
+header>ul{font-size: 11px; }
+header>ul:first-child{margin-left: 65px; }
+header>.navbox1>li{float: left; line-height: 125px; margin-right: 15px; }
+header>.navbox1>li:first-child{line-height: 145px; margin-top:-3px;}
+header>.navbox2>li{float: right; line-height: 125px;margin-right: 20px; }
+header>.navbox2>li:first-child{margin-right: 50px;margin-top:-3px;}
+.logo>h1{font-size: 20px; font-weight: bold; /* clear: both; */ z-index: 9999;}
+.logo>p{font-size: 10px; z-index: 9999;}
+.logo{line-height: 2.5; letter-spacing:4px; margin-left: 80px; margin-top: 56px; width: 300px; position: absolute; z-index: 9999; top:125px;}
+.mainimgbox{/* overflow: hidden; */float: left;}
+.mainimg{width:100%}
+.mainimg>.chance{width:148%; margin-top: 92px;}
+.mainimg01{position:absolute; z-index: 999; top:130px; float: left; }
+.mainimg02{margin-top: 130px;}
+
+/* 컨텐츠1 */
+.container01{width: 70%; margin:0 auto; }
+.container01>h2 ,
+.container01>h3{font-size: 40px; font-weight: bold; text-align: right; margin-right: 250px;}
+.container01>h3{margin-bottom:205px;}
+.gablielle{margin-bottom: 20px;}
+
+/* 컨텐츠2 */
+.container02>.content01{text-align: center;padding-top: 173px; letter-spacing:3px;}
+.container02>.content01>h3{font-size: 16px; font-weight: bold;}
+.container02>.content01>ul>li{display: inline-block; margin:10px 5px; margin-top: 50px;
+				}
+.container02>.content01>ul>li>a{border-radius: 20px; background-color: #f1f1f1; padding:15px 20px; font-size: 14px;}
+.container02>.content01>ul>li>a:hover{background-color: black; color: white;}
+.container02>.content02{ margin:158px auto;}
+.container02>.content02>ul>li{display: inline; margin:0 ; width:20%; height: 300px;}
+
+/* 푸터박스1 */
+.ftbox1,.ftbox2{width: 70%; margin:20px auto;}
+.ftbox1{border-bottom: 1px solid; padding: 50px 0 50px 0; overflow: hidden;}
+.ftbox1 input{border:1px solid; outline: none; padding:20px; float: right; width: 364px;}
+.ftbox1 button{border:1px solid; outline: none; padding:20px; border-left: none;background-color: #fff; cursor: pointer; float: right;}
+.ftbox1 h4{font-size: 28px; font-weight: bold; letter-spacing: 3px;}
+.ftbox1 p{font-size: 11px; line-height: 1.4;}
+.ftbox1 p>span{font-size: 12px; line-height: 3; letter-spacing: 3px;}
+
+.box1_txt1,
+.box1_txt2{width:50%;}
+.box1_txt2{float:right; margin-top:-100px;}
+			
+/* 푸터박스2 */
+footer li a{display: block;}
+footer li a:hover{color: gray;}
+.ftbox2>div{float: left; }
+
+.box2_txt1,
+.box2_txt3{
+	text-align: left;width: 20%; padding: 30px 0 40px 0; line-height: 2;
+}
+.box2_txt2{text-align: center;width: 60%; padding-top: 58px; line-height:50px; }
+.box2_txt2 a:hover{opacity: .6;}
+.box2_txt3{text-align: right;width: 20%;}
+
+/* smallimg텍스트 */
+			
+ul.list{list-style:none;}
+ul.list>li{float:left; margin:10px; overflow:hidden; height: 250px;}
+ul.list img{width:100%; height:100%; vertical-align: top;/* dispay: block; */}
+ul.list .txt{width:100%; height:100%; text-align:center; color: white; background:rgba(0,0,0,.6); padding-top:80px; line-height: 1.6; opacity:0;}
+ul.list .txt h2{font-weight: bold; font-size: 18px;}
+ul.list .txt p{font-size: 12px; font-family:"Noto Sans CJK KR",sans-serif;}
+ul.list>li:hover .txt{transform:translateY(-300px); transition:1s; opacity: .8;}
+h2{margin:0;}
