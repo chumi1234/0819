@@ -14,8 +14,8 @@ header>.navbox1>li:first-child{margin-top: 100px;}
 header>.navbox11{overflow: hidden; }
 header>.navbox11 a{display: block; width: 100%}
 header>.navbox11 li:nth-child(1){position:absolute; left: 50px;}
-header>.navbox11 li:nth-child(2){position:absolute; right: 150px; top:40px;}
-header>.navbox11 li:nth-child(3){position:absolute; right: 50px; top:40px;}
+header>.navbox11 li:nth-child(2){position:absolute; right: 180px; top:40px;}
+header>.navbox11 li:nth-child(3){position:absolute; right: 80px; top:40px;}
 			
 
 .logo>h1{font-size: 20px; font-weight: bold; /* clear: both; */ z-index: 9999;}
@@ -62,12 +62,13 @@ header>.navbox11 li:nth-child(3){position:absolute; right: 50px; top:40px;}
 .btn>.more{width: 800px; height: 100px; outline: none; border:1px solid; background-color: #c0c0c0; color: white; font-size: 25px; margin-top: 50px; margin-bottom: 50px;}
 			
 /* 푸터 */
-footer{line-height: 1.2; width: 90%;}
+footer{line-height: 1.2; width:95%; padding:10px;}
 footer>div{padding: 20px 20px;}
-footer p{font-size: 14px; width: 100%;}
+footer p{width: 100%; font-size: 12px;}
 footer >.ftbox1{width: 100%; height: 100px; background-color: #e2e2e2; margin: 50px 0; }
-footer >.ftbox1 li{float: left; line-height: 100px; font-size: 25px; margin:0 10px; color: #959595;}
+footer >.ftbox1 li{float: left; line-height: 100px; font-size: 30px; margin:0 10px; color: #959595;  }
+footer >.ftbox1 li:first-child{margin-left:100px;}
 footer >.ftbox2{}
-footer >.ftbox2 span{font-weight: bold; font-size: 25px; }
+footer >.ftbox2 span{font-weight: bold; font-size: 22px; }
 footer  h5{font-weight: bold; margin:20px 0;}
 footer >.ftbox3{margin-top: 40px;}

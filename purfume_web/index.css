@@ -42,8 +42,8 @@ header>.navbox2>li:first-child{margin-right: 50px;margin-top:-3px;}
 /* 푸터박스1 */
 .ftbox1,.ftbox2{width: 70%; margin:20px auto;}
 .ftbox1{border-bottom: 1px solid; padding: 50px 0 50px 0; overflow: hidden;}
-.ftbox1 input{border:1px solid; outline: none; padding:20px; float: right; width: 364px;}
-.ftbox1 button{border:1px solid; outline: none; padding:20px; border-left: none;background-color: #fff; cursor: pointer; float: right;}
+.ftbox1 input{border:1px solid; outline: none; padding:10px; float: right; width: 310px;}
+.ftbox1 button{border:1px solid; outline: none; padding:10px; border-left: none;background-color: #fff; cursor: pointer; float: right;}
 .ftbox1 h4{font-size: 28px; font-weight: bold; letter-spacing: 3px;}
 .ftbox1 p{font-size: 11px; line-height: 1.4;}
 .ftbox1 p>span{font-size: 12px; line-height: 3; letter-spacing: 3px;}
@@ -59,9 +59,9 @@ footer li a:hover{color: gray;}
 
 .box2_txt1,
 .box2_txt3{
-	text-align: left;width: 20%; padding: 30px 0 40px 0; line-height: 2;
+	text-align: left;width: 20%; padding: 10px 0 40px 0; line-height: 2;
 }
-.box2_txt2{text-align: center;width: 60%; padding-top: 58px; line-height:50px; }
+.box2_txt2{text-align: center;width: 60%; padding-top: 70px; line-height:50px; font-size: 14px; }
 .box2_txt2 a:hover{opacity: .6;}
 .box2_txt3{text-align: right;width: 20%;}
 
