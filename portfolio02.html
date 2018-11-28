@@ -7,7 +7,7 @@
 		<meta name="description" content="index">
 		<meta name="keywords" content="portpolo">
 
-		<title>CHU | portpolio</title>
+		<title>CHU | portpolio 2</title>
 		<link rel="shortcut icon" type="favicon" href="common/mi.ico">
 		<link rel="stylesheet" href="common/reset.css">
 		<!-- font-family: 'Roboto', sans-serif; -->
@@ -40,7 +40,7 @@
 			.content01 p{
 				margin:90px 0;
 			}
-
+		/* 설명번호박스  */
 			.box1,.box2,.box3{
 				background-color: rgba(255,0,0,.7);
 				padding-left: 13px;
@@ -65,11 +65,11 @@
 				font-weight: normal;
 			}
 
-			.content01>.box1{position: absolute; top:126px; left:-25px;}
-			.content01>.box2{position: absolute; right: 260px; top:270px;}
-			.content01>.box3{position: absolute; bottom:100px; right: 10px;}
+			.content01>.box1{position: absolute; top:140px; left:-25px;}
+			.content01>.box2{position: absolute; top:440px; left:-25px;}
+			.content01>.box3{position: absolute; bottom:650px; left:-25px;}
 			.boxtxt p,.boxtxt div{float: left;}
-			.boxtxt p{padding:0 58px; text-align: left;}
+			.boxtxt p{padding:0 56px; text-align: left;}
 			.boxtxt{margin:0 auto;}
 
 			.boxtxt>.box11{position: absolute; bottom:-123px; left:10px;}
@@ -86,9 +86,6 @@
 				line-height: 1.4;
 			
 			}
-
-			
-
 
 			.container{
 				width: 100%; height: 480px;
@@ -109,12 +106,17 @@
 				border-style: none;
 				box-shadow: 1px 1px 2px black;
 				color: white;
-				margin:100px 0 0 500px;
+				margin:30px 0 0 500px;
 				cursor: pointer;
+				
 			}
 			button a{width: 160px; height: 40px; display: inline-block; line-height: 40px; color:white;}
 
+/*새로 */
 
+			.mimg{margin-top: 150px; }
+			.content01 #mimg-r{margin-right:80px;}
+			
 		</style>
 		
 
@@ -131,16 +133,16 @@
 		<header>
 			
 			<ul>
-				<li class="hd"><a href="https://chumi1234.github.io/CHU/index.html">CHU</a></li>
+				<li class="hd"><a href="https://chumi1234.github.io/CHU/">CHU</a></li>
 				<li><a href="https://chumi1234.github.io/CHU/about.html">ABOUT</a></li>
-				<li><a href="https://chumi1234.github.io/CHU/index.html">PORTPOLIO</a></li>
+				<li><a href="https://chumi1234.github.io/CHU/">PORTPOLIO</a></li>
 			</ul>
 		</header>
 
 		<section>
 			
 			<div class="topimg" style="width: 100%; height: auto; background-color: black;">
-				<img class="topimg01" src="image/PT01_03.jpg" alt="" width="100%" style="opacity:.6">
+				<img class="topimg01" src="image/PT02_01.jpg" alt="" width="100%" style="opacity:.6">
 			
 				
 			</div>
@@ -156,11 +158,15 @@
 			<div class="box3" style="font-size:16px;">
 				3
 			</div>
-			<p>파리스 웨딩 스튜디오 리뉴얼 웹페이지 입니다 <br>
+			<p>향수 쇼핑몰을 제작하였습니다. CHANEL 향수이미지와 로고를 임시 사용하였으며, <br>
 			포트폴리오용으로 제작되었습니다.</p>
-			<img src="image/PT01_01.jpg" alt="" width="1200px">
+			<img src="image/PT02_02.jpg" alt="" width="1200px">
+			<img class="mimg" id="mimg-r" src="image/PT02_03.jpg" alt="mobile" width="341px" height="690px">
+			<img class="mimg" id="mimg-r" src="image/PT02_04.jpg" alt="mobile" width="341px" height="690px">
+			<img class="mimg" src="image/PT02_05.jpg" alt="mobile" width="341px" height="690px">
+			
 			<!-- <img src="image/PT01_04.jpg" alt="" width="1200px" style="margin-top: 50px;"> -->
-			<div style="width:1200px; margin:0 auto;" class="boxtxt">
+			<div style="width:1200px; height: auto; margin:0 auto;" class="boxtxt">
 				<div class="box11" style="font-size:16px;">
 				1
 				</div>
@@ -169,13 +175,13 @@
 				<div class="box22" style="font-size:16px;">
 					2
 				</div>
-				<p>두 섹션이 왼쪽 아래로 오른쪽 위로 <br>
-				교차되어 스크롤 되어 사진이 보여집니다.</p>
+				<p>광고동영상이 재생됩니다. 풀 커버가 아닌 <br>
+				사선화면으로 재미를 자극합니다.</p>
 				<div class="box33" style="font-size:16px;">
 					3
 				</div>
-				<p>고정되어 있으며 클릭 시 사진목록이 뜨고,<br>
-				선택사진으로 이동됩니다.</p>
+				<p>고정되어 있으며 클릭 시 숨어있는 리스트<br>
+				목록이 슬라이드되어 나타납니다.</p>
 			</div>
 			
 		</section>
@@ -184,56 +190,64 @@
 		<div class="containerbox">
 		<section class="content02 section_p content">
 			<h3>사이트분석 <span>Site Analysis</span></h3>
-			<p>메인화면의 사작은 좋으나, <br>
-				마지막 설명부분의 이미지들이 <br>
-				집중을 하지 못하게 합니다. <br>
-				서브메뉴는 갤러리 위주의 <br>
-				심플하게 구성되어있는 것은 좋으나, <br>
-				그 자점을 부각시키지 못한 레이아웃이 <br>
-				시선집중을 방해합니다.</p>
+			<p>
+				쇼핑몰답게 제품이 돋보이고, <br>
+				구매함에 있어 불편함 없는 것을  <br>
+				우선시 생각하게 되었습니다. <br>
+				제품사진이 작게 들어가 있거나, <br>
+				이미지 나열이 많은것은 ,  <br>
+				시선집중을 방해합니다.
+			</p>
 		</section>
 		
 
 		<section class="content03 section_p content">
 			<h3>기획의도 <span>Plan Intention</span></h3>
-			<p>갤러리 위주 페이지임에서 복잡한 <br>
-				배경사진과 레이아웃이 사진을 <br>
-				돋보이게 하지않은 점을 보완하여, <br>
-				앨범형 레이아웃으로 갤러리형 <br>
-				웹사이트의 장점을 부각하였고, <br>
-				스튜디오의 컨셉과 맞는 화이트톤으로 <br>
-				화사하고 넓은 느낌을 담고자 <br>
-				제작하게 되었습니다.</p>
+			<p>
+				데스크탑 전용과 모바일 전용을 같이<br>
+				제작,기획하게 되었습니다.<br>
+				향수 쇼핑몰로서 제품을 돋보일 수 있는<br>
+				레이아웃으로 기획하여 한눈에 보이며, <br>
+				포인트 동영상으로 시선집중과,<br>
+				제품에 대한 고급스러움을<br>
+				표현했습니다.
+			</p>
 		</section>
 
 		<section class="content04 section_p content">
 			<h3>톤 앤 매너 <span>Tone & Manner</span></h3>
-			<p>웨딩스튜디오답게 화사함을 <br>
-				상징하는 화이트를 메인컬러를 <br>
-				선정하였습니다.</p>
+			<p>
+				제품이 돋보일 수 있고, 전체적인 느낌은 <br>
+				갈끔하고,고급스러운 분위기를 연출가능한 <br>
+				화이트,블랙을 주로 사용하였습니다. <br>
+			</p>
 		</section>
 
 		<section class="content05 section_p content">
 			<h3>퍼블리싱 <span>Publishing</span></h3>
-			<p>마우스오버시 생상이변합니다. <br>
-				두섹션으로 나누어 왼쪽은 아래로 <br>
-				오른쪽은 위로 교차되어 스클롤하게 <br>
-				갤러리 형 웹사이트의 장점을 부각되도록 <br>
-				퍼블리싱 하였습니다.</p>
+			<p>
+				마우스오버시 색상이변합니다. <br>
+				메인동영상을 일반적 풀커버화면이 아닌, <br>
+				사선화면적용을 하여 재미를 더했습니다. <br>
+				아래쪽 제품 마우스오버시 제품설명과, <br>
+				가격이 슬라이드되어 올라오도록  <br>
+				퍼블리싱 되었습니다.
+			</p>
 		</section>
 		</div>
 	</div>	
 <!-- 컨텐스03 -->
 		<section class="content06  content">
-			<img src="image/PT01_02.jpg" alt="" width="1200px">
+			<img src="image/PT02_06.jpg" alt="" width="1200px">
 			<!-- 벼튼 -->
-		<button><a href="https://chumi1234.github.io/CHU/paris_web/index.html" target="_blank">사이트 바로가기</a></button>
+		<button><a href="https://chumi1234.github.io/CHU/purfume_web/index.html" target="_blank">사이트 바로가기</a></button>
+		<button><a href="https://chumi1234.github.io/CHU/purfume_web/mobile.html" target="_blank">모바일 바로가기</a></button>
 		</section>
 
 		
 		<!-- footer -->
 		<footer>
-			<a href="https://chumi1234.github.io/CHU/index.html"><img src="image/chu.jpg" alt="chulogo"></a>
+			<a href="index.html"><img src="image/chu.jpg" alt="chulogo"></a>
 			<p>Copyright &copy; 2018. CHUYOUMI.All rights reserved.</p>
 		</footer>
 		
