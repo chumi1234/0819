@@ -41,7 +41,7 @@
 				margin:90px 0;
 			}
 		/* 설명번호박스  */
-			.box1,.box2,.box3{
+			.box1,.box2,.box3,.box4{
 				background-color: rgba(255,0,0,.7);
 				padding-left: 13px;
 				color: white;
@@ -53,7 +53,7 @@
 				font-weight: normal;
 			}
 
-			.box11,.box22,.box33{
+			.box11,.box22,.box33,.box44{
 				background-color: rgba(255,0,0,.7);
 				padding-left: 13px;
 				color: white;
@@ -67,14 +67,16 @@
 
 			.content01>.box1{position: absolute; top:140px; left:-25px;}
 			.content01>.box2{position: absolute; top:440px; left:-25px;}
-			.content01>.box3{position: absolute; bottom:650px; left:-25px;}
+			.content01>.box3{position: absolute; bottom:710px; left:13px;}
+			.content01>.box4{position: absolute; bottom:680px; right:380px;}
 			.boxtxt p,.boxtxt div{float: left;}
 			.boxtxt p{padding:0 56px; text-align: left;}
 			.boxtxt{margin:0 auto;}
 
-			.boxtxt>.box33{position: absolute; bottom:-123px; left:10px;}
-			.boxtxt>.box11{position: absolute; bottom:800px; left:10px;}
-			.boxtxt>.box22{position: absolute; bottom:800px; left:430px;}
+			.boxtxt>.box33{position: absolute; bottom:-130px; left:10px;}
+			.boxtxt>.box11{position: absolute; top:950px; left:10px;}
+			.boxtxt>.box22{position: absolute; top:950px; left:430px;}
+			.boxtxt>.box44{position: absolute; bottom:-130px; right:410px;}
 
 			.content02,
 			.content03,
@@ -106,7 +108,7 @@
 				border-style: none;
 				box-shadow: 1px 1px 2px black;
 				color: white;
-				margin:30px 0 0 500px;
+				margin:80px 0 0 0;
 				cursor: pointer;
 				
 			}
@@ -115,7 +117,7 @@
 /*새로 */
 
 			.mimg{margin-top: 20px; }
-			.content01 #mimg-r{margin-right:80px;}
+			.content01 #mimg-r{margin-right:100px;}
 			
 		</style>
 		
@@ -158,6 +160,9 @@
 			<div class="box3" style="font-size:16px;">
 				3
 			</div>
+			<div class="box4" style="font-size:16px;">
+				4
+			</div>
 			<p style="line-height:1.4;">향수 쇼핑몰을 제작하였습니다. CHANEL 향수이미지와 로고를 임시 사용하였으며, <br>
 			포트폴리오용으로 제작되었습니다.</p>
 			<img src="image/PT02_02.jpg" alt="" width="1200px">
@@ -174,12 +179,12 @@
 				</div>
 				<p>광고동영상이 재생됩니다. 풀 커버가 아닌 <br>
 				사선화면으로 재미를 자극합니다.</p>
+				
 
 			</div>
-
-			<img class="mimg" id="mimg-r" src="image/PT02_03.jpg" alt="mobile" width="341px" height="690px">
-			<img class="mimg" id="mimg-r" src="image/PT02_04.jpg" alt="mobile" width="341px" height="690px">
-			<img class="mimg" src="image/PT02_05.jpg" alt="mobile" width="341px" height="690px">
+			
+			
+			<img src="image/PT02_04.jpg" alt="mobile" style="margin-left: -370px;" >
 			
 			<!-- <img src="image/PT01_04.jpg" alt="" width="1200px" style="margin-top: 50px;"> -->
 			<div style="width:1200px; height: auto; margin:0 auto;" class="boxtxt">
@@ -188,8 +193,16 @@
 				<div class="box33" style="font-size:16px;">
 					3
 				</div>
-				<p>고정되어 있으며 클릭 시 숨어있는 리스트<br>
-				목록이 슬라이드되어 나타납니다.</p>
+				<p style="line-height: 1.4; ">1.고정되어 있으며 클릭 시 숨어있는 리스트목록이 슬라이드되어 나타납니다. <br>
+					2.데스크탑과 모바일전용을 따로 만들어 기존반응형과달리 모바일에 최적화 되어 제작되었습니다.
+				</p>
+
+				<div class="box44" style="font-size:16px;">
+					4
+				</div>
+				<p style="line-height:2.8">
+					모바일 QR 코드
+				</p>
 			</div>
 			
 		</section>
@@ -243,7 +256,7 @@
 		<section class="content06  content">
 			<img src="image/PT02_06.jpg" alt="" width="1200px">
 			<!-- 벼튼 -->
-		<button><a href="https://chumi1234.github.io/CHU/purfume_web/index.html" target="_blank">사이트 바로가기</a></button>
+		<button style="margin-left: 380px; margin-right:30px;"><a href="https://chumi1234.github.io/CHU/purfume_web/index.html" target="_blank">사이트 바로가기</a></button>
 		<button><a href="https://chumi1234.github.io/CHU/purfume_web/mobile.html" target="_blank">모바일 바로가기</a></button>
 		</section>
 
