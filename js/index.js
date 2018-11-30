@@ -4,13 +4,13 @@ $(document).ready(function(){
 		
 	});
 	$('.btn2').click(function(){
-		$('.img1').css({'display':'none'});
-		$('.img4,.img2,.img3').css({'display':'block'});
+		$('.img4,.img3').css({'display':'none'});
+		$('.img2,.img1').css({'display':'block'});
 		
 	});
 	$('.btn3').click(function(){
-		$('.img4,.img2,.img3').css({'display':'none'});
-		$('.img1').css({'display':'block'});
+		$('.img2,.img1').css({'display':'none'});
+		$('.img4,.img3').css({'display':'block'});
 		
 	});
 
